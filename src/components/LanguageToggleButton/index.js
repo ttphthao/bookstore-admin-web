@@ -28,7 +28,7 @@ const LanguageToggleButton = () => {
     const onClick = ({ key }) => {
         setCurrentLng(key);
         localStorage.setItem(LOCAL_STORAGE.language, key);
-        location.reload();
+        // location.reload();
     };
 
     return (

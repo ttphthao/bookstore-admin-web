@@ -41,7 +41,8 @@ const AppLayout = () => {
   }
 
   const handleOnClick = useCallback(() => {
-    navigate('/'), [navigate]
+    // navigate('/'), [navigate]
+    navigate('/');
   })
 
   return (

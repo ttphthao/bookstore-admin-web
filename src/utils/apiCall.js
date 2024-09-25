@@ -1,5 +1,5 @@
 import axios from 'axios';
-const base_url = process.env.REACT_APP_EUCHOICE_DOMAIN;
+const base_url = process.env.REACT_APP_LUCYBOOK_DOMAIN;
 // axios.defaults.headers = {
 //     'Cache-Control': 'no-cache',
 //     Pragma: 'no-cache',

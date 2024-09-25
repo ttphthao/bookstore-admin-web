@@ -24,7 +24,7 @@ const baseUrl = process.env.REACT_APP_BASE_URL;
 const UpdateProductForm = (props) => {
     const { t } = useTranslation();
     const navigate = useNavigate();
-    const { productId, productDetails, onFinish, listFilterCategory, listFilterWarehouse, onClickDeleteImage, listFilterProvider, updateStatus, submiting, setSubmiting, uploadImageForProduct } = props;
+    const { productId, productDetails, onFinish, listFilterCategory, listFilterWarehouse, onClickDeleteImage, listFilterProvider, updateStatus, submiting, setSubmiting, uploadImageForProduct, name } = props;
     const [form] = useForm();
 
     const [isAddNewGroup, setIsAddNewGroup] = useState(false);

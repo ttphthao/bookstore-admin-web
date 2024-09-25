@@ -25,7 +25,7 @@ module.exports = {
       ...config,
       proxy: {
         '/v1': {
-          target: process.env.REACT_APP_EUCHOICE_DOMAIN,
+          target: process.env.REACT_APP_LUCYBOOK_DOMAIN,
           changeOrigin: true,
           secure: false
         },

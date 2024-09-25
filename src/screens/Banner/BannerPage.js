@@ -443,7 +443,7 @@ const BannerPage = (props) => {
     ];
     return (
         <div>
-            <Tabs defaultActiveKey="1" items={items} onChange={(e) => { onChange(e), setTab(e) }} />
+            <Tabs defaultActiveKey="1" items={items} onChange={(e) => { onChange(e) && setTab(e); }} />
             <AddBanner visible={visible} onClose={onClose} setRefreshing={setRefreshing} />
             <UpdateBanner visible={visibleUpd} onClose={onCloseUpd} data={dataRow} />
             <DeleteBanner visible={visibleDlt} onClose={onCloseDlt} data={dataRow} />

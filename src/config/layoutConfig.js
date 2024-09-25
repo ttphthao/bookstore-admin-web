@@ -7,7 +7,7 @@ export default {
     routes: SIDEBAR.ROUTES,
   },
   layout: 'top',
-  title: 'EUCHOICE',
+  title: 'LUCYBOOK',
   logo: logo,
   fixSiderbar: true,
   navTheme: 'light',
